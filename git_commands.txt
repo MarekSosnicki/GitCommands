@@ -15,3 +15,15 @@ git status # pokazuje status
 
 git commit -m "wiadomosc" # tworzy commit z aktualnie trackowanymi plikami 
 
+git branch zmiany # tworzy branch zmiany
+# odpowiednik to git checkout -b zmiany
+
+git checkout zmiany
+
+## zmienic plik
+
+git add . # dodaje wszystkie zmiany z folderu
+
+git commit -m "cos na zmiany"
+
+git checkout -b master
