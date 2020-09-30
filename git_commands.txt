@@ -1,0 +1,17 @@
+git config --global user.email "mail"
+git config --global user.name "nazwa uzytkownika"
+
+git init    # inicjuje repozytorium
+
+# stworzyć jakiś plik
+
+touch plik.txt
+
+git status # pokazuje status
+
+git add plik.txt  ## Dodaje aktualne zmiany do "trackowanych"
+
+git status # pokazuje status
+
+git commit -m "wiadomosc" # tworzy commit z aktualnie trackowanymi plikami 
+
